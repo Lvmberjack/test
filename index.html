@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lvmberjack.id</title>
+    <link rel="stylesheet" href="csse.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a><button id="button.css"></Button></a></li>
+                <li><a href="#" class="a-navbar">Home</a></li>
+                <li><a href="About.html" class="a-navbar">About</a></li>
+                <li><a href="#" class="a-navbar">Contact</a></li>
+                <li><a href="#" class="a-navbar">Article</a></li>
+                <li><a href="#" class="a-navbar">Software</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- inininininiinini ctrl  / -->
+    <main>
+        <section class="featured">
+            <h1>"&nbsp;F O R T I S&nbsp;&nbsp;&nbsp;F O R T U N A&nbsp;&nbsp;&nbsp;A D I U V A T&nbsp;"</h1>
+            <img src="Untitled-1.jpg" alt="logo">
+
+
+            <div class="container">
+                <video width="720">
+                    <source src="Avenged Sevenfold - Live In The LBC (AI Upscaled to 1080p 48fps).mkv" type="video/mp4">
+                </video>
+                <div class="video-component">
+                    <button onclick="play()" class="btn btn-pl">PLAY</button>
+                    <button onclick="pause()" class="btn btn-pa">PAUSE</button>
+                    <button onclick="minimize()" class="btn btn-min">MINIMIZE</button>
+                </div>
+            </div>
+</body>
+
+<script>
+    function play() {
+        console.log(play)
+        const videoComponent = document.querySelector("video");
+        videoComponent.play()
+    }
+
+    function pause() {
+        console.log(pause)
+        const videoComponent = document.querySelector("video");
+        videoComponent.pause()
+    }
+
+    function minimize() {
+        console.log(minimize)
+        const videoComponent = document.querySelector("video");
+        videoComponent.requestPictureInPicture()
+    }
+</script>
+</main>
+
+</html>
